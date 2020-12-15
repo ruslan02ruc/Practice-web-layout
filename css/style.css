@@ -1,0 +1,230 @@
+:root {
+  box-sizing: border-box;
+  font-size: 16px;
+  --color-text-blue: #202242;
+  --color-text-yellow:  #ffe13e;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: var(--color-text-blue);
+}
+.header-nav{
+  height: 147px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  padding-left: 115px;
+  display: flex;
+  align-items: flex-end;
+}
+.logo__text{
+  padding-left: 18px;
+  font-family: 'Rockwell',sans-serif;
+  font-weight: 400;
+  color: var(--color-text-blue);
+  padding-bottom: 4px;
+  font-size: 20px;
+  padding-right: 103px;
+}
+.logo__text-fatty{
+  font-weight: 700;
+}
+.nav{
+  padding-right: 50px;
+  display: flex;
+  list-style-type: none;
+}
+.nav__item {
+  margin-left: 40px;
+}
+.nav__link {
+  color: var(--color-text-blue);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+.nav__link:hover {
+  color: var(--color-text-yellow);
+  font-weight: bold;
+}
+.header-line{
+  background: #ebebeb;
+  width: 1px;
+  height: 147px;
+}
+.chat{
+  padding-left: 50px;
+}
+.chat__nav{
+  display: flex;
+  align-items: center;
+}
+.chat__text{
+  padding-bottom: 25px;
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+.chat__btn{
+  font-weight: bold;
+  text-decoration: none;
+  background: var(--color-text-yellow);
+  height: 40px;
+  width: 122px;
+  padding-top: 13px;
+}
+.chat-line{
+  padding-left: 22px;
+  padding-right: 19px;
+}
+.chat__btn-text{
+  margin-left: 29px;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+.chat-number{
+  font-size: 1.5rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+.header-intro {
+  background-image: url("../img/background-header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 940px;
+}
+.header-intro-mask {
+  background-color: rgba(0, 0, 0, 0.33);
+  height: 940px;
+}
+.wrap{
+  text-align: center;
+  padding-bottom: 60px;
+}
+.header-intro__title{
+  font-family: 'Rockwell',sans-serif;
+  padding-top: 234px;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 400;
+}
+.header-intro__desc{
+  color: #fff;
+  font-size: 1.875rem;
+}
+.header-intro-shape{
+  padding-top: 60px;
+}
+.header-intro__form{
+  height: 90px;
+  width: 572px;
+  background-color: rgba(255, 255, 255, 0.50);
+  margin: 0 auto;
+}
+.header-intro-input{
+  display: flex;
+  padding-top: 18px;
+  padding-left: 18px;
+}
+.input-width{
+  width: 274px;
+  border-style: none;
+  text-align: center;
+}
+.header-intro-com{
+  padding-left: 19px;
+  text-decoration: none;
+  background: var(--color-text-yellow);
+  height: 54px;
+  width: 108px;
+  padding-top: 15px;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #2d2d2d;
+  display: flex;
+  text-align: center;
+}
+.arrow{
+  margin-left: 18px;
+}
+.header-intro-line{
+  background: #fff;
+  width: 1px;
+}
+.header-intro-check{
+  text-decoration: none;
+  background: var(--color-text-yellow);
+  width: 154px;
+  padding-top: 17px;
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: #fff;
+  text-align: center;
+}
+.service{
+  display: flex;
+  color: #fff;
+  text-align: center;
+}
+.feature{
+  height: 680px;
+}
+.feature__img{
+  padding-top: 115px;
+}
+.feature-blue{
+  background-color: var(--color-text-blue);
+  flex-basis: 50%;
+}
+.feature-yellow{
+  background-color: var(--color-text-yellow);
+  flex-basis: 50%;
+}
+.feature__title{
+  padding-bottom: 30px;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+.title-blue{
+  padding-top: 55px;
+}
+.title-yellow{
+  padding-top: 75px;
+}
+.feature__desc{
+  font-size: 0.875rem;
+  line-height: 1.7;
+  padding-bottom: 40px;
+}
+.feature__btn{
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+  border: 3px solid #fff;
+  background: var(--color-text-green);
+  color: #fff;
+  height: 56px;
+  width: 156px;
+  padding-top: 18px;
+}
+.feature__img-text{
+  padding-top: 133px;
+  font-weight: 700;
+  color: var(--color-text-blue);
+  font-size: 8.36rem;
+}
+.features-info
+{
+  background-image: url(../img/background-features.png);
+  height: 700px;
+}
