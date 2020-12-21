@@ -110,7 +110,7 @@ body {
   background-color: rgba(0, 0, 0, 0.33);
   height: 940px;
 }
-.wrap{
+.header-intro-block{
   text-align: center;
   padding-bottom: 60px;
 }
@@ -260,7 +260,6 @@ body {
   padding-top: 90px;
   text-align: center;
   padding-left: 130px;
-  padding-right: 130px;
 }
 .feature-info__item + .feature-info__item{
   padding-left: 40px;
@@ -331,7 +330,7 @@ body {
   padding-left: 22px;
   padding-bottom: 28px;
   color: #a4a4a4;
-  font-size: 00.875rem;
+  font-size: 0.875rem;
 }
 .client__anna{
   position: absolute;
@@ -469,3 +468,102 @@ body {
   margin-left: 14px;
 }
 
+
+@media (max-width: 768px) {
+  :root {
+    font-size: 14px;
+  }
+  .header-nav {
+    padding-left: 15px;
+  }
+  .nav{
+    display: none;
+  }
+  .features-info__column {
+    padding-left: 20px;
+  }
+  .client{
+    padding-left: 10px;
+    height: 1200px;
+  }
+  .client__item{
+    display: block;
+  }
+  .client__column-tittle {
+    font-size: 1.85rem;
+  }
+ .clint_column-desc {
+    padding-bottom: 30px;
+ }
+ .client_icon {
+    padding-bottom: 40px;
+    padding-top: 40px;
+ }
+ .client__column + .client__column {
+    padding-left: 0;
+  }
+  .plans-text {
+    padding-left: 50px;
+  }
+  .plans__title {
+    font-size: 1.25rem;
+ }
+ .map__text{
+    padding-right: 20px;
+ }
+ .map__marker {
+    width: 180px;
+    display: block;
+    top: 160px;
+    left: 450px;
+ }
+ .map__color{
+    padding-top: 25px;
+    padding-left: 35px;
+ }
+ .map__img {
+    background: url(../img/map.png) no-repeat ;
+    background-size: 600px;
+ }
+ .client__item{
+    padding-left: 200px;
+ }
+}
+@media (max-width: 600px) {
+  .features-info__column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 10px;
+ }
+ .features-info__color {
+    height: 980px;
+ }
+ .feature__img-text{
+    padding-top: 173px;
+ }
+ .feature-info__item  {
+    padding-top: 40px;
+ }
+ .client__item{
+    padding-left: 130px;
+ }
+ .plans-text {
+    padding-left: 20px;
+    padding-right: 50px; 
+ }
+ .plans__btn {
+    width: 200px;
+ }
+ .map {
+    height: 461px;
+ }
+ .map__color{
+    height: 500px;
+ }
+ .map__marker {
+    width: 180px;
+    display: none;
+    top: 160px;
+    left: 450px;
+ }
+}
